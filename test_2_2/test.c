@@ -4,7 +4,10 @@
 int main()
 {
 	//printf("第一个C语言程序\n");
+<<<<<<< HEAD
 	//代码管理踩坑
+=======
+>>>>>>> baa4187998938bb543c17bc6fb8311441bdd24d1
 	printf("%d\n", sizeof(char));//1
 	printf("%d\n", sizeof(short));//2
 	printf("%d\n", sizeof(int));//4
@@ -14,8 +17,13 @@ int main()
 	printf("%d\n", sizeof(double));//8
 
 	//%d - 整型
+<<<<<<< HEAD
 	//%f - float
 	//%lf - double
+=======
+		//%f - float
+		//%lf - double
+>>>>>>> baa4187998938bb543c17bc6fb8311441bdd24d1
 	int a = 0;
 	int b = 0;
 	int sum = 0;
