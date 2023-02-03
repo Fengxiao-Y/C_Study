@@ -4,7 +4,7 @@
 
 int main()
 {
-	//printf("第一个C语言程序\n");
+	//printf("第一个C语言程序\n");。。。。
 
 	printf("%d\n", sizeof(char));//1
 	printf("%d\n", sizeof(short));//2
