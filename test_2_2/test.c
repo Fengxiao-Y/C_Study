@@ -1,10 +1,11 @@
-# define _CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 //使用scanf，必须放在第一行
 #include <stdio.h>
 int main()
 {
 	//printf("第一个C语言程序\n");
 	//代码管理踩坑
+
 	printf("%d\n", sizeof(char));//1
 	printf("%d\n", sizeof(short));//2
 	printf("%d\n", sizeof(int));//4
@@ -16,6 +17,9 @@ int main()
 	//%d - 整型
 	//%f - float
 	//%lf - double
+	//%f - float
+	//%lf - double
+
 	int a = 0;
 	int b = 0;
 	int sum = 0;
