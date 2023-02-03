@@ -1,18 +1,12 @@
-# define _CRT_SECURE_NO_WARNINGS 1
-<<<<<<< HEAD
+#define _CRT_SECURE_NO_WARNINGS 1
 // π”√scanf£¨±ÿ–Î∑≈‘⁄µ⁄“ª––
-=======
-//‰ΩøÁî®scanfÔºåÂøÖÈ°ªÊîæÂú®Á¨¨‰∏ÄË°å
->>>>>>> 6cfa77f4546f15cbb3a959d3b6ad34b3ed601e5c
 #include <stdio.h>
 
 int main()
 {
-<<<<<<< HEAD
 	//printf("µ⁄“ª∏ˆC”Ô—‘≥Ã–Ú\n");
-=======
-	//printf("Á¨¨‰∏Ä‰∏™CËØ≠Ë®ÄÁ®ãÂ∫è\n");„ÄÇ„ÄÇ„ÄÇ„ÄÇ
->>>>>>> 6cfa77f4546f15cbb3a959d3b6ad34b3ed601e5c
+	//≥È∑Á
+	//‘Ÿ¿¥“ª¥Œ
 
 	printf("%d\n", sizeof(char));//1
 	printf("%d\n", sizeof(short));//2
@@ -21,27 +15,17 @@ int main()
 	printf("%d\n", sizeof(long long));//8
 	printf("%d\n", sizeof(float));//4
 	printf("%d\n", sizeof(double));//8
-<<<<<<< HEAD
+
 	//%d - ’˚–Õ
-=======
-	//%d - Êï¥Âûã
->>>>>>> 6cfa77f4546f15cbb3a959d3b6ad34b3ed601e5c
     //%f - float
     //%lf - double
 	int a = 0;
 	int b = 0;
 	int sum = 0;
 	scanf("%d %d", &a, &b);
-<<<<<<< HEAD
+
 	//scanf_s∫Ø ˝ -VS ±‡“ÎÃ·π©µƒ£¨≤ª «C”Ô—‘±Í◊ºπÊ∂®µƒ
 	sum = a + b;
 	printf("sum = %d\n",sum);
 	return 0;
 }
-=======
-	//scanf_sÂáΩÊï∞ -VS ÁºñËØëÊèê‰æõÁöÑÔºå‰∏çÊòØCËØ≠Ë®ÄÊ†áÂáÜËßÑÂÆöÁöÑ
-	sum = a + b;
-	printf("sum = %d\n",sum);
-	return 0;
-}
->>>>>>> 6cfa77f4546f15cbb3a959d3b6ad34b3ed601e5c
